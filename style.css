@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    font-family: 'Rubik';
+    background-color: grey;
+}
+h1{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    color: rgb(34, 40, 49);
+    margin-top: 80px;
+    font-size: 50px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 1px black;
+    border: 1px solid black;
+    
+}
+#input-form{
+    background-color: white;
+    color: rgb(34, 40, 49);
+    border-radius: 7px 0 0 7px;
+    width: 220px;
+    margin-left: 4px;    
+}
+#btn-form{
+    color:white;
+    background-color: rgb(34, 40, 49);
+    border-radius: 0 7px 7px 0;
+    width: 40px;
+    cursor: pointer;
+}
+#input-form::placeholder{
+    color:rgb(34, 40, 49);
+}
+#input-form:focus{
+    box-shadow: 0 0 4px 1px #00000059;
+    outline: none;
+    outline-offset: 0;
+    border: 1px solid #00000000;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 240px;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 1px black;
+    padding: 10px;
+}
+#task-text{
+    margin-right: 30px;
+    padding: 0;
+}
+#task-btn{
+    background-color: rgb(34, 40, 49);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#tasksList{
+    padding: 0px;
+    margin: 0;
+}
+#btn-form:hover{
+    background-color:lightskyblue;
+    color: rgb(34, 40, 49) ;
+}
+#task-btn:hover{
+    background-color:lightskyblue;
+    color: rgb(34, 40, 49) ;
+}
+
+
+
+
+
+
